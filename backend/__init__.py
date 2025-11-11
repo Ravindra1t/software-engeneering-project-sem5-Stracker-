@@ -14,6 +14,7 @@ def create_app():
          resources={
              r"/*": {
                  "origins": [
+                     "https://software-engeneering-project-sem5-s.vercel.app",
                      "https://stracker-eta.vercel.app",
                      "http://localhost:5173"  # For local development
                  ],
